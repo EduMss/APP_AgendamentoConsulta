@@ -1,6 +1,10 @@
 # APP_AgendamentoConsulta
 Um app desenvolvido com react-native para agendamento de consultas medicas
 
+# Extensão recomendada para facilitar o desenvolvimento com react
+
+React Native Tools
+
 # Clonando repositorio
 
 git clone https://github.com/EduMss/APP_AgendamentoConsulta.git
