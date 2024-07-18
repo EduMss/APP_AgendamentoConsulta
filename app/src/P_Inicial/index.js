@@ -10,8 +10,6 @@ export function P_Inicial() {
   );
 }
 
-
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,

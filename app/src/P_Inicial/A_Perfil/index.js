@@ -12,8 +12,6 @@ export function A_Perfil() {
   );
 }
 
-
-
 const styles = StyleSheet.create({
     fundoCima:{
         flex: 1,
