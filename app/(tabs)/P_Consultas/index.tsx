@@ -1,10 +1,11 @@
 import { StyleSheet, Text, View } from "react-native";
 import {A_Perfil} from "./A_Perfil";
 
-export function P_Inicial() {
+const P_Consultas = () => {
   return (
     <View style={styles.container}>
-        <A_Perfil style={styles.A_Perfil} />
+        {/* style={styles.A_Perfil} /> */}
+        <A_Perfil /> 
         <Text style={styles.title}>Agendar Consulta</Text>
     </View>
   );
@@ -29,3 +30,5 @@ const styles = StyleSheet.create({
   },
 });
 
+
+export default P_Consultas;

@@ -1,13 +1,13 @@
 import { StyleSheet, Text, View , Image } from "react-native";
-import Image_Perfil from "../../../Imagens/Perfil/foto-perfil.png"
 
 export function A_Perfil() {
   return (
     <View style={styles.fundoCima} >
         <View style={styles.container}>
-            <Image style={styles.imagePerfil} source={require('../../../Imagens/Perfil/foto-perfil.png')} />
+            <Image style={styles.imagePerfil} source={require('@/assets/images/foto-perfil.png')} />
             <Text style={styles.NomePerfil}>Eduardo Matheus</Text>
         </View>
+        
     </View>
   );
 }
