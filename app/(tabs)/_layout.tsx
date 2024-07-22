@@ -9,12 +9,12 @@ import { useClientOnlyValue } from '@/components/useClientOnlyValue';
 // import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 // import FontAwesome from '@expo/vector-icons/FontAwesome';
 
-
-export default function TabLayout() {
+const TabLayout = () => {
+//export default function TabLayout() {
 
   return (
     <Tabs
-      initialRouteName="P_Consultas/index" // Define a página inicial
+      initialRouteName="index" // Define a página inicial
       screenOptions={{
         tabBarActiveTintColor: 'black',//Quando estiver selecionado, o label vai ficar preto
         tabBarInactiveTintColor: 'white',//Quando não estiver selecionado, o label vai ficar branco
@@ -25,7 +25,7 @@ export default function TabLayout() {
         }, 
       }}>
       <Tabs.Screen
-        name="P_Agenda/index"
+        name="P_Agenda"
         options={{
           title: 'Agenda',
           //Usando Icones pesonalizado
@@ -48,7 +48,8 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="P_Consultas/index" //component={P_Consultas} //nome do .tsx(ou um dirtetório) que ele vai buscar dentro do diretório
+        //name="P_Consultas/index" //component={P_Consultas} //nome do .tsx(ou um dirtetório) que ele vai buscar dentro do diretório
+        name="index" //component={P_Consultas} //nome do .tsx(ou um dirtetório) que ele vai buscar dentro do diretório
         options={{
           title: 'Consultas', //Titulo do label que fica abaixo do icone
 
@@ -75,7 +76,7 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="P_Notificacao/index"
+        name="P_Notificacao"
         options={{
           title: 'Noticações',
           //Usando Icones pesonalizado
@@ -97,6 +98,8 @@ export default function TabLayout() {
           headerShown: false,  // Remove o cabeçalho da tela Settings
         }}
       />
-    </Tabs>
+      </Tabs>
   );
 }
+
+export default TabLayout;

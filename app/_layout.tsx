@@ -13,9 +13,10 @@ export {
   ErrorBoundary,
 } from 'expo-router';
 
-export const unstable_settings = {
-  initialRouteName: 'P_Consultas/index',
-};
+// export const unstable_settings = {
+//   //initialRouteName: '(tabs)/P_Consultas/index',
+//   initialRouteName: 'index',
+// };
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();

@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View } from "react-native";
-import {A_Perfil} from "./A_Perfil";
+import {A_Perfil} from  "@/AssetsComponentes/A_Perfil"  //"./A_Perfil";
 
 const P_Consultas = () => {
   return (

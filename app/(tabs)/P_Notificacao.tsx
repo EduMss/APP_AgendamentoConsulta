@@ -3,7 +3,8 @@ import { StyleSheet } from 'react-native';
 import EditScreenInfo from '@/components/EditScreenInfo';
 import { Text, View } from '@/components/Themed';
 
-export default function TabTwoScreen() {
+const P_Notificacao = () => {
+//export default function P_Notificacao() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Notificações</Text>
@@ -28,3 +29,6 @@ const styles = StyleSheet.create({
     width: '80%',
   },
 });
+
+
+export default P_Notificacao;

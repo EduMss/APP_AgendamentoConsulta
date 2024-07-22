@@ -2,7 +2,9 @@ import { StyleSheet } from 'react-native';
 
 import { Text, View } from '@/components/Themed';
 
-export default function P_Agenda() {
+
+const P_Agenda = () => {
+//export default function P_Agenda() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Agenda</Text>
@@ -27,3 +29,6 @@ const styles = StyleSheet.create({
     width: '80%',
   },
 });
+
+
+export default P_Agenda;
