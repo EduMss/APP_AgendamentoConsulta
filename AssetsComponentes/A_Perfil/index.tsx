@@ -19,14 +19,16 @@ const styles = StyleSheet.create({
         width: 500,
         maxHeight: 400,
         alignItems: "center",
-        top: -200,
+        //top: -200,
+        top: -40,
     },
     container: {
         backgroundColor: "#0066FF",
         borderRadius: 24, // Borda arredondada
         alignItems: 'center',
         justifyContent: 'center',
-        top: 230,
+        //top: 230,
+        top:  70,
         width: 350,
         height: 200,
     },

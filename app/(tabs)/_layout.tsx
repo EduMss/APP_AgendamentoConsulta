@@ -10,8 +10,6 @@ import { useClientOnlyValue } from '@/components/useClientOnlyValue';
 // import FontAwesome from '@expo/vector-icons/FontAwesome';
 
 const TabLayout = () => {
-//export default function TabLayout() {
-
   return (
     <Tabs
       initialRouteName="index" // Define a página inicial
