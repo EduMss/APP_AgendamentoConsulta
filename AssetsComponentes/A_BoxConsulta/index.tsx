@@ -14,8 +14,9 @@ export default function A_BoxConsulta() {
 
 const styles = StyleSheet.create({
     container: {
-        height: 170,
-        width: 170,
+        height: 150,
+        //width: 170,
+        width: "42%",
         backgroundColor: "gray",
         margin: 10,
         borderRadius: 15,

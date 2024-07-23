@@ -18,10 +18,12 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: '#FFFFFF',
   },
   title: {
     fontSize: 20,
     fontWeight: 'bold',
+    color: '#000000',
   },
   separator: {
     marginVertical: 30,

@@ -18,13 +18,17 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: 'center',
     padding: 24,
+    backgroundColor: '#FFFFFF',
   },
   title: {
     fontSize: 34,
     fontWeight: "bold",
     //top:-165,
     top: -15,
-    left: -40,
+    //left: -40,
+    left: '-10%',
+    //left: '-1em',
+  
   },
   A_ListaConsultas: {
 

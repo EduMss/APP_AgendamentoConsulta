@@ -19,7 +19,8 @@ const TabLayout = () => {
         headerShown: useClientOnlyValue(false, true),
         tabBarStyle: {
           backgroundColor: '#0066FF',// mudando cor de fundo da Navigate bar
-          height: 80, //mudando o tamanho do navigate bar
+          height: "15%",//100, //mudando o tamanho do navigate bar
+          maxHeight: 100,
         }, 
       }}>
       <Tabs.Screen
@@ -34,12 +35,12 @@ const TabLayout = () => {
                   ? require('@/assets/images/conta.png') //icone quando não está selecionado
                   : require('@/assets/images/contaSelecionado.png') //icone quando está seleciona
               }
-              style={{ width: 40, height: 40}} //Tamanho do icone
+              style={{ width: 40, height: 40, marginTop: "10%", marginBottom: "5%"}}//, marginTop: 25, marginBottom: 10}} //Tamanho do icone
             />
           ),
           tabBarLabelStyle: { //Style do Label
             fontSize: 16, //tamanho da fonte
-            paddingBottom: 10, //deixar o espaço em baixo do label para não ficar colado na parte de baixo
+            paddingBottom: "5%",//paddingBottom: 10, //deixar o espaço em baixo do label para não ficar colado na parte de baixo
             fontWeight: 'bold' //deixar a fonte mais grossa
           },
           headerShown: false,  // Remove o cabeçalho da tela Settings
@@ -62,12 +63,12 @@ const TabLayout = () => {
                   ? require('@/assets/images/farmacia.png') //icone quando não está selecionado
                   : require('@/assets/images/farmaciaSelecionado.png') //icone quando está seleciona
               }
-              style={{ width: 40, height: 40}} //Tamanho do icone
+              style={{ width: 40, height: 40, marginTop: "10%", marginBottom: "5%"}} //Tamanho do icone
             />
           ),
           tabBarLabelStyle: { //Style do Label
             fontSize: 16, //tamanho da fonte
-            paddingBottom: 10, //deixar o espaço em baixo do label para não ficar colado na parte de baixo
+            paddingBottom: "5%",//paddingBottom: 10, //deixar o espaço em baixo do label para não ficar colado na parte de baixo
             fontWeight: 'bold' //deixar a fonte mais grossa
           },
           headerShown: false,  // Remove o cabeçalho da tela Settings
@@ -85,12 +86,12 @@ const TabLayout = () => {
                   ? require('@/assets/images/sino.png') //icone quando não está selecionado
                   : require('@/assets/images/sinoSelecionado.png') //icone quando está seleciona
               }
-              style={{ width: 40, height: 40}} //Tamanho do icone
+              style={{ width: 40, height: 40, marginTop: "10%", marginBottom: "5%"}} //Tamanho do icone
             />
           ),
           tabBarLabelStyle: { //Style do Label
             fontSize: 16, //tamanho da fonte
-            paddingBottom: 10, //deixar o espaço em baixo do label para não ficar colado na parte de baixo
+            paddingBottom: "5%",//paddingBottom: 10, //deixar o espaço em baixo do label para não ficar colado na parte de baixo
             fontWeight: 'bold' //deixar a fonte mais grossa
           },
           headerShown: false,  // Remove o cabeçalho da tela Settings
